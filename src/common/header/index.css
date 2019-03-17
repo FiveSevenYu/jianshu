@@ -90,6 +90,7 @@
   font-size: .14rem;
   border-radius: .05rem;
   background-color: #fff;
+  cursor: pointer;
 }
 .HeaderWrapper .Nav .left .NavSearch .searchInfo .searchHd {
   display: flex;
@@ -106,6 +107,17 @@
   font-weight: 600;
   line-height: .1rem;
   color: #999;
+}
+.HeaderWrapper .Nav .left .NavSearch .searchInfo .searchHd .icon-spin {
+  display: block;
+  background-color: transparent;
+  color: #969696;
+  position: absolute;
+  top: .25rem;
+  right: .45rem;
+  font-size: .12rem;
+  transition: all 0.2s ease-in;
+  transform-origin: center center;
 }
 .HeaderWrapper .Nav .left .NavSearch .searchInfo .searchContent {
   display: flex;
